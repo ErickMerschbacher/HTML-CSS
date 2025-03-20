@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #65c4ff;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#btnChave{
+    width: 200px;
+    padding: 5px;
+    margin: 25px 5px;
+    font-size: large;
+}
+#preguica{
+    background-color: #b9f3fe;
+    width: 80%;
+    font-size: 50px;
+    padding: 10px auto;
+    text-align: center;
+    display: none;
+    block
+}

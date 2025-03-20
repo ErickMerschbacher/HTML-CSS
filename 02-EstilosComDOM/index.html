@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02-Estilos com Dom</title>
+</head>
+<body style="text-align: center;">
+    <h1>Estilos visuais com DOM</h1>
+    <button onclick="mudarCor()">Mudar cor</button>
+    <script>
+        const mudarCor = () => {
+            document.querySelector("body").style.backgroundColor = "bisque";
+            document.querySelector("button").style.backgroundColor = "#24cdfb";
+        };
+    </script>
+</body>
+</html>
