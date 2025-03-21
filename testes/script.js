@@ -20,3 +20,25 @@ function resetTouchCount() {
 // Adicionando eventos aos botões
 incrementButton.addEventListener('click', incrementTouchCount);
 resetButton.addEventListener('click', resetTouchCount);
+let mancheteCount = 0;
+
+// Selecionando elementos
+const mancheteCountElement = document.getElementById('mancheteCount');
+const mancheteButton = document.getElementById('mancheteButton');
+const resetButton = document.getElementById('resetButton');
+
+// Função para incrementar o contador de manchetes
+function incrementMancheteCount() {
+    mancheteCount++;
+    mancheteCountElement.textContent = mancheteCount;
+}
+
+// Função para resetar o contador
+function resetMancheteCount() {
+    mancheteCount = 0;
+    mancheteCountElement.textContent = mancheteCount;
+}
+
+// Adicionando eventos aos botões
+mancheteButton.addEventListener('click', incrementMancheteCount);
+resetButton.addEventListener('click', resetMancheteCount);
