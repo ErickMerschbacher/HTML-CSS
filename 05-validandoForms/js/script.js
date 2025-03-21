@@ -5,6 +5,8 @@
     const validarDados = () =>{
         let nome = frmExemplo.inNome.value
         let idade = frmExemplo.inIdade.value
+        let data = frmExemplo.inData.value
+        let mail = frmExemplo.inEmail.value
 
         if(nome.trim() == ""){
             alert("O campo não pode estar vazio!")
